@@ -8,7 +8,8 @@ C exercises
 
 Тестирование на кластере:
 
-    ```object Main {
+    ```
+    object Main {
         def apply(): Main = new Main
         
         lazy val spark = SparkSession.builder.getOrCreate()
